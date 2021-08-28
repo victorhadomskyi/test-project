@@ -1,0 +1,8 @@
+{
+    "/UrlShortener": {
+      "target": "https://localhost:44340/UrlShortener",
+      "secure": false,
+      "logLevel": "debug",
+      "changeOrigin": true
+    }
+}

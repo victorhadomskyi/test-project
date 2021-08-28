@@ -1,0 +1,10 @@
+<div>
+    <input type="text" [(ngModel)]="newUrl"/>
+    <button (click)="onShortenButtonClick()">
+        Shorten
+    </button>
+    <label>{{shortenedUrl}}</label>
+    <div *ngFor="let url of shortenedUrls">
+        <a [href]="url">{{ url }}</a>
+    </div>
+</div>
